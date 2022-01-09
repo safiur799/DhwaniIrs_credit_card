@@ -1,0 +1,140 @@
+* {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main_contianer {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: 70%;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+}
+.left_section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 25px;
+  margin-right: 20px;
+  flex: 1;
+}
+.company_name {
+  display: flex;
+  align-items: flex-start;
+}
+.span_wallet {
+  padding: 7px;
+  background-color: blue;
+  border-radius: 100%;
+}
+.span_wallet i {
+  color: white;
+  font-size: 1.5rem;
+}
+.pay_name {
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-left: 12px;
+}
+.card_number {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.span1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.span2 {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(27, 22, 22);
+}
+.text_card_number {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.edit_logo {
+  color: blue;
+  display: flex;
+}
+.edit_logo span {
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.cvv_number {
+  display: flex;
+  justify-content: space-between;
+}
+.cvv_input input {
+  width: 100px;
+  margin-left: 5px;
+  padding: 10px;
+  border: 2px solid rgb(27, 22, 22);
+  color: blue;
+  border-radius: 5px;
+}
+.cvv_input input:focus {
+  outline: none !important;
+  border: 2px solid blue;
+  box-shadow: 0 0 10px #719ece;
+}
+.expairay_date {
+  display: flex;
+  justify-content: space-between;
+}
+.divider {
+  font-size: 20px;
+  margin-left: 5px;
+}
+.change_input_size > input {
+  width: 70px;
+}
+.pay_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 70%;
+  background-color: #2274fc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pay_button:hover {
+  cursor: pointer;
+}
+.right_section {
+  background-color: rgb(238, 224, 224);
+  border-radius: 5px;
+  padding: 10px;
+}
+.right_box {
+  padding: 20px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  overflow-y: scroll;
+}
+li {
+  margin-bottom: 15px;
+}
+h1 {
+  text-align: center;
+  margin-top: 15px;
+}
